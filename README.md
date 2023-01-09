@@ -111,3 +111,15 @@ void Swap<T>(ref T a, ref T b)
 > Решение: создать абстрактный класс Shape и от него пронаследовать Square и Rectangle.
 > http://askofen.blogspot.com/2011/07/blog-post.html ОКРУЖНОСТЬ И ЭЛЛИПС
 
+---
+
+- ### [B7] Дайте описание принципам S, I, D из SOLID
+
+---
+
+- ### [B8] Дайте описание принципам O, L из SOLID.
+
+---
+
+- ### [B9] Gateway и Mapper. В чём идея? В чём ключевые различия?.
+
