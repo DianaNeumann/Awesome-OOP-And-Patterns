@@ -143,3 +143,49 @@ void Swap<T>(ref T a, ref T b)
 
 - ### [B9] Gateway и Mapper. В чём идея? В чём ключевые различия?.
 
+> `Gateway` -  подобие паттерна Посредник/Адаптер, который инкапсулирует в себе доступ к внешней системе и ресурсу.
+
+> ПО редко функционирует в изоляции от внешнего мира. Даже самая строго объектно-ориентированная система часто вынуждена взаимодействовать с "не объектами", например реляционная БД, CICS транзакции или структурами XML.
+>
+> При доступе к такого рода внешним ресурсам, обычно используется API. Однако, API изначально являются чем-то сложным, потому что принимают во внимание структуру ресурса. Каждый, кто хочет понять какой-нибудь ресурс, должен понять его API - будь то JDBC и SQL для реляционных БД или W3C или JDOM для XML. Это делает ПО не только менее понятным, но ещё это делает изменения гораздо более сложными, например, если вы собираетесь перейти со временем с SQL на XML.
+>
+> Решением здесь является **обёртывание всего специального API в класс, интерфейс которого выглядит как интерфейс обычного объекта**. Остальные объекты обращаются к ресурсу через этот `Шлюз`, который транслирует эти простые вызовы в соответствующий специальный API-код
+
+![image](https://user-images.githubusercontent.com/56086653/211609584-4624de81-ef8d-4115-b30c-aa82a9f1e6b8.png)
+
+![image](https://user-images.githubusercontent.com/56086653/211606455-f3f6583c-9fc8-447b-8df6-0ce6133832a8.png)
+
+> Пример Gateway-контроллера для картинки выше:
+```
+[Route("[action]")]
+[ApiController]
+public class ConsumerGatewayController : ControllerBase
+{
+    private readonly HttpClient _httpClient;
+    
+    public ProxyController(IHttpClientFactory httpClientFactory)
+    {
+        _httpClient = httpClientFactory.CreateClient();
+    }
+    
+    [HttpGet]
+    public async Task<IActionResult> Books()
+        => await ProxyTo("https://localhost:44388/books");
+	
+    [HttpGet]
+    public async Task<IActionResult> Authors()
+        => await ProxyTo("https://localhost:44307/authors");
+	
+    private async Task<ContentResult> ProxyTo(string url)
+        => Content(await _httpClient.GetStringAsync(url));
+}
+```
+----
+
+> 'Mapper` - объект, который управляет сообщением между независимыми друг от друга объектами. Очень похож на Посредник, но подсистемы не в курсе о существовании Mapper.
+
+![image](https://user-images.githubusercontent.com/56086653/211608400-8ade253c-dcfc-435c-a07b-5514cb6b345e.png)
+
+
+
+
