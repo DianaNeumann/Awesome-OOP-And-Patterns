@@ -188,7 +188,7 @@ void Swap<T>(ref T a, ref T b)
 
 - ### [B9] Gateway и Mapper. В чём идея? В чём ключевые различия?.
 
-> `Gateway` -  подобие паттерна Посредник/Адаптер, который инкапсулирует в себе доступ к внешней системе и ресурсу.
+> `Gateway` -  подобие паттерна [Посредник](https://github.com/DianaNeumann/Awesome-OOP-And-Patterns/blob/main/ExamQuestions/Patterns.md#p16-%D0%BF%D0%B0%D1%82%D1%82%D0%B5%D1%80%D0%BD-%D0%BF%D0%BE%D1%81%D1%80%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA-%D0%B2-%D1%87%D0%B5%D0%BC-%D0%B8%D0%B4%D0%B5%D1%8F-%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0-%D1%81%D0%BB%D0%B5%D0%B4%D1%83%D0%B5%D1%82-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D1%8F%D1%82%D1%8C)/[Адаптер](https://github.com/DianaNeumann/Awesome-OOP-And-Patterns/blob/main/ExamQuestions/Patterns.md#p12-%D0%BF%D0%B0%D1%82%D1%82%D0%B5%D1%80%D0%BD-%D0%B0%D0%B4%D0%B0%D0%BF%D1%82%D0%B5%D1%80-%D0%B2-%D1%87%D0%B5%D0%BC-%D0%B8%D0%B4%D0%B5%D1%8F-%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0-%D1%81%D0%BB%D0%B5%D0%B4%D1%83%D0%B5%D1%82-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D1%8F%D1%82%D1%8C), который инкапсулирует в себе доступ к внешней системе и ресурсу.
 
 > ПО редко функционирует в изоляции от внешнего мира. Даже самая строго объектно-ориентированная система часто вынуждена взаимодействовать с "не объектами", например реляционная БД, CICS транзакции или структурами XML.
 >
@@ -240,7 +240,7 @@ public class ConsumerGatewayController : ControllerBase
 > Зачастую маппер используется для простого перемещения данных из одной подсистемы в другую
 >
 > Самый сложный аспект mapper'а - это его запуск. Поскольку ни одна подсистема не должна знать о его наличии, придется использоваться новую подсистему для его запуска,
-> либо же реализовать паттерн [Observer](#) /*потом вставлю ссылку*/, где mapper будет следить за системами и перехватывать в них события 
+> либо же реализовать паттерн [Observer](https://github.com/DianaNeumann/Awesome-OOP-And-Patterns/blob/main/ExamQuestions/Patterns.md#p17-%D0%BF%D0%B0%D1%82%D1%82%D0%B5%D1%80%D0%BD-%D0%BD%D0%B0%D0%B1%D0%BB%D1%8E%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%8C-%D0%B2-%D1%87%D0%B5%D0%BC-%D0%B8%D0%B4%D0%B5%D1%8F-%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0-%D1%81%D0%BB%D0%B5%D0%B4%D1%83%D0%B5%D1%82-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D1%8F%D1%82%D1%8C), где mapper будет следить за системами и перехватывать в них события 
 
 ![image](https://user-images.githubusercontent.com/56086653/211610775-7ab61221-3de3-4066-96d2-3631ee4beb34.png)
 
