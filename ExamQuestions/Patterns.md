@@ -107,7 +107,7 @@
 - ### [P15] Паттерн фасад. В чем идея? Когда следует применять?
 > [RG: Facade](https://refactoring.guru/ru/design-patterns/facade)
 >
-> [SRC: Facade](#)
+> [SRC: Facade](https://github.com/DianaNeumann/Awesome-OOP-And-Patterns/tree/main/Awesome-Patterns/StructuralPatterns/Facade)
 
 ---
 
