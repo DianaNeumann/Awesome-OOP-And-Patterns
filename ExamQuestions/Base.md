@@ -197,9 +197,9 @@ void Swap<T>(ref T a, ref T b)
 > Решением здесь является **обёртывание всего специального API в класс, интерфейс которого выглядит как интерфейс обычного объекта**. Остальные объекты обращаются к ресурсу через этот `Шлюз`, который транслирует эти простые вызовы в соответствующий специальный API-код
 >
 > ![image](https://user-images.githubusercontent.com/56086653/211609584-4624de81-ef8d-4115-b30c-aa82a9f1e6b8.png)
->
-> ![image](https://user-images.githubusercontent.com/56086653/211606455-f3f6583c-9fc8-447b-8df6-0ce6133832a8.png)
 
+> ![image](https://user-images.githubusercontent.com/56086653/211606455-f3f6583c-9fc8-447b-8df6-0ce6133832a8.png)
+>
 > Пример Gateway-контроллера для картинки выше:
 ```
 [Route("[action]")]
