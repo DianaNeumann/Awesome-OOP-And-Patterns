@@ -103,7 +103,7 @@
 > 
 > Когда использовать: с не слишком сложной бизнес-логикой. Неплохо работает с **Transaction Script**, c простым Domain Model.
 
-> • `Data Mapper`
+> • `Data Mapper` 
 
 
 ---
