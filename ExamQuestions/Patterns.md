@@ -12,6 +12,9 @@ UPD: Оказалось, что код на экзамене писать НЕ �
 > [RG: Singleton](https://refactoring.guru/ru/design-patterns/singleton)
 >
 > [SRC: Singleton](https://github.com/DianaNeumann/Awesome-OOP-And-Patterns/tree/main/Awesome-Patterns/CreationalPatterns/Singleton)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213404953-f13056d2-a99f-4c8b-8870-46acaf21dbe3.png)
+
 
 ---
 
@@ -19,6 +22,9 @@ UPD: Оказалось, что код на экзамене писать НЕ �
 > [RG: State](https://refactoring.guru/ru/design-patterns/state)
 >
 > [SRC: State](#)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213405893-d79e7bd4-be35-4bba-b603-0a8b61775294.png)
+
 
 ---
 
