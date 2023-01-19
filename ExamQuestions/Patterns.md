@@ -32,6 +32,13 @@ UPD: Оказалось, что код на экзамене писать НЕ �
 > [RG: Strategy](https://refactoring.guru/ru/design-patterns/strategy)
 >
 > [SRC: Strategy](#)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213408058-e3b86772-287e-4595-953b-bf3f7b79fd85.png)
+>
+> Конкретный пример:
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213414685-c3d5ff4b-7cb9-40f5-b54a-08be46b85621.png)
+
 
 ---
 
@@ -39,6 +46,13 @@ UPD: Оказалось, что код на экзамене писать НЕ �
 > [RG: Flyweight](https://refactoring.guru/ru/design-patterns/flyweight)
 >
 > [SRC: Flyweight](#)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213416975-f4bede7c-457f-496e-9d10-fd9d7c4a2b82.png)
+>
+> Конкретный пример:
+>
+> !![image](https://user-images.githubusercontent.com/56086653/213417733-613127b2-de61-4624-9728-2a37ec34c5a6.png)
+
 
 ---
 
