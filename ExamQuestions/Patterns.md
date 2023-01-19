@@ -65,6 +65,13 @@ UPD: Оказалось, что код на экзамене писать НЕ �
 > [RG: Proxy](https://refactoring.guru/ru/design-patterns/proxy)
 >
 > [SRC: Proxy](https://github.com/DianaNeumann/Awesome-OOP-And-Patterns/tree/main/Awesome-Patterns/StructuralPatterns/Proxy)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213482306-62e8800e-36a5-417b-abc8-965afde30b66.png)
+>
+> Конкретный пример:
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213482482-2c936a13-87c6-4bb4-8fea-a25a215a2975.png)
+
 
 ---
 
@@ -72,6 +79,10 @@ UPD: Оказалось, что код на экзамене писать НЕ �
 > [RG: Command](https://refactoring.guru/ru/design-patterns/command)
 >
 > [SRC: Command](#)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213482774-9db0de44-7c65-42ac-bb59-24a334abba9b.png)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213482884-b6f91485-ad54-4873-a6b2-964691a5dabe.png)
 
 ---
 
