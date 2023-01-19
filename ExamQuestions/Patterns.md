@@ -24,6 +24,11 @@ UPD: Оказалось, что код на экзамене писать НЕ �
 > [SRC: State](#)
 >
 > ![image](https://user-images.githubusercontent.com/56086653/213405893-d79e7bd4-be35-4bba-b603-0a8b61775294.png)
+>
+> Конкретный пример:
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213418167-673e2fc4-89c4-4d0c-9660-db606b3d6700.png)
+
 
 
 ---
