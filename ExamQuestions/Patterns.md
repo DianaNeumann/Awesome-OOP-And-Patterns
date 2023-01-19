@@ -90,6 +90,15 @@ UPD: Оказалось, что код на экзамене писать НЕ �
 > [RG: Memento](https://refactoring.guru/ru/design-patterns/memento)
 >
 > [SRC: Memento](#)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213485918-6a7b0679-bc7b-4132-a0d0-728a28f0effc.png)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213485990-afd8f2b9-2deb-48c0-a944-177228cacaf8.png)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213486079-5e122399-3327-4620-8e6f-d3b39b4dc131.png)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213486281-7c1b5306-1832-4b47-af72-b3618372fa41.png)
+
 
 ---
 
@@ -97,6 +106,8 @@ UPD: Оказалось, что код на экзамене писать НЕ �
 > [RG: Factory Method](https://refactoring.guru/ru/design-patterns/factory-method)
 >
 > [SRC: Factory Method](#)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213487103-cc87a76c-4d43-480e-9602-d4b6a58063bb.png)
 
 ---
 
@@ -104,6 +115,10 @@ UPD: Оказалось, что код на экзамене писать НЕ �
 > [RG: Template Method](https://refactoring.guru/ru/design-patterns/template-method)
 >
 > [SRC: Template Method](#)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213487441-10d0682a-31f2-4486-a370-75f26ef45e5d.png)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213487517-80bcc9ca-6f09-4ea9-9361-cdc9f6e14791.png)
 
 ---
 
@@ -111,6 +126,10 @@ UPD: Оказалось, что код на экзамене писать НЕ �
 > [RG: Visitor](https://refactoring.guru/ru/design-patterns/visitor)
 >
 > [SRC: Visitor](#)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213488357-67603760-68fc-4d5b-895c-9b8b3a72f1d7.png)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213488421-00e884c2-ceae-49a4-ba3b-2185ca309bc8.png)
 
 ---
 
