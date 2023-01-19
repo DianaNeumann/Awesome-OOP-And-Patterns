@@ -150,6 +150,10 @@ UPD: Оказалось, что код на экзамене писать НЕ �
 > [RG: Bridge](https://refactoring.guru/ru/design-patterns/bridge)
 >
 > [SRC: Bridge](#)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213529802-421c18f2-d28f-4d06-95b4-47505d8c2d80.png)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213529865-ab4fc617-5478-4ebe-ab6b-11ee7e9ba86e.png)
 
 ---
 
@@ -157,6 +161,10 @@ UPD: Оказалось, что код на экзамене писать НЕ �
 > [RG: Chain of Responsibility](https://refactoring.guru/ru/design-patterns/chain-of-responsibility)
 >
 > [SRC: Chain of Responsibility](#)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213529970-bd53ba21-7d09-4f99-a15a-2e47f3596d1f.png)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213530027-1873dee7-5393-452a-b9fd-94ef1596de7b.png)
 
 ---
 
@@ -164,6 +172,10 @@ UPD: Оказалось, что код на экзамене писать НЕ �
 > [RG: Facade](https://refactoring.guru/ru/design-patterns/facade)
 >
 > [SRC: Facade](https://github.com/DianaNeumann/Awesome-OOP-And-Patterns/tree/main/Awesome-Patterns/StructuralPatterns/Facade)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213530120-4b6f8e8a-a6d1-4add-a350-809cf68f158c.png)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213530189-6818172a-b5bf-4794-93e6-c2c2a9148972.png)
 
 ---
 
@@ -171,6 +183,10 @@ UPD: Оказалось, что код на экзамене писать НЕ �
 > [RG: Mediator](https://refactoring.guru/ru/design-patterns/mediator)
 >
 > [SRC: Mediator](#)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213530305-6b938ff1-619e-45bd-abc6-5386a748fa93.png)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213530356-b9711792-16f1-489a-803a-bf42c5d282ea.png)
 
 ---
 
@@ -178,6 +194,10 @@ UPD: Оказалось, что код на экзамене писать НЕ �
 > [RG: Observer](https://refactoring.guru/ru/design-patterns/observer)
 >
 > [SRC: Observer](https://github.com/DianaNeumann/Awesome-OOP-And-Patterns/tree/main/Awesome-Patterns/BehavioralPatterns/Observer)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213530470-e46eee9a-5d64-4343-bfc0-03c599de2266.png)
+>
+> ![image](https://user-images.githubusercontent.com/56086653/213530526-c3e06eb8-03e3-4805-a348-bfff28d7fab7.png)
 
 
 
