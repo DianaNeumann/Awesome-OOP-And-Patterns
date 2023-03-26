@@ -156,7 +156,7 @@ void Swap<T>(ref T a, ref T b)
 >
 > Решение: создать абстрактный класс Shape и от него пронаследовать Square и Rectangle.
 > 
-> TODO: http://askofen.blogspot.com/2011/07/blog-post.html ОКРУЖНОСТЬ И ЭЛЛИПС
+> [Пример с окружностью и эллипсом](http://askofen.blogspot.com/2011/07/blog-post.html) 
 
 ---
 
